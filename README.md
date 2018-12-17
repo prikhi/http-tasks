@@ -6,6 +6,7 @@ Tasks instead of Cmds, including things like making GET requests & decoding JSON
 ```elm
 import Http
 import Http.Tasks exposing (get, resolveString, resolveJson)
+import Json.Decode as Decode exposing (Decoder)
 import Task exposing (Task)
 
 
@@ -17,6 +18,7 @@ type alias MyType =
     , fieldTwo : String
     }
 
+decodeMyType : Decoder MyType
 decodeMyType =
     Decode.map MyType
         |> Decode.field "fieldOne" Decode.string
