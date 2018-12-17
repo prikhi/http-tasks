@@ -1,5 +1,7 @@
 # HTTP Tasks
 
+[![Build Status](https://travis-ci.org/prikhi/http-tasks.svg?branch=master)](https://travis-ci.org/prikhi/http-tasks)
+
 This library includes some convenience functions for building HTTP requests as
 Tasks instead of Cmds, including things like making GET requests & decoding JSON:
 
