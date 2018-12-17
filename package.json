@@ -1,0 +1,20 @@
+{
+  "name": "http-tasks",
+  "version": "1.0.0",
+  "description": "HTTP Requests as Tasks",
+  "scripts": {
+    "build": "elm make --optimize --output=/dev/null --docs=docs.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elm",
+    "http",
+    "tasks"
+  ],
+  "author": "Pavan Rikhi",
+  "license": "MIT",
+  "devDependencies": {
+    "elm": "^0.19.0-bugfix2",
+    "elm-format": "^0.8.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "package",
+    "name": "prikhi/http-tasks",
+    "summary": "Convenience Functions for Building HTTP Requests as Tasks",
+    "license": "MIT",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "Http.Tasks"
+    ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm/http": "2.0.0 <= v < 3.0.0",
+        "elm/json": "1.1.2 <= v < 2.0.0"
+    },
+    "test-dependencies": {}
+}
