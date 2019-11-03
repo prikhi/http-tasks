@@ -1,6 +1,10 @@
+---
+
 language: elm
 elm:
     - "0.19.1"
+node_js: "12"
+
 script:
     - elm-format --validate .
     - npm run build
